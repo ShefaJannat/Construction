@@ -1,0 +1,201 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans',sans-serif;
+}
+.padd-15{
+    padding-left:600px;
+    padding-right:600px;
+    }
+    .padd-100{
+        padding-left:400px;
+    padding-right:400px;
+    }
+.icons{
+    background: #01012e;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: all 0.3s ease;
+transition: all 0.3s ease;
+    
+
+}
+.icons .text h6{
+-ms-flex:0 0 100%;
+flex:0 0 100%;
+max-width: 100%;
+margin-top:10px;
+margin-bottom: 20px;
+position: relative;
+
+/*background-color: grey;
+-ms-flex:0 0 100%;
+flex:0 0 100%;
+/*max-width: 50%;
+margin-top:30px;
+
+/*font-size: 16px;
+color:#504e70;*/
+}
+.icons a{
+
+    font-size: 25px;
+   transition: color 1s ease;
+}
+.icons .social-links a{
+    color: white;
+    height: 35px;
+width: 35px;
+display: inline-block;
+text-align: center;
+line-height: 20px;
+/*color: black;*/
+margin: 0 5px;
+border:1px solid #d4d4e3;
+ margin-top:2px ;
+
+border-radius: 10px;
+text-decoration: none;
+-webkit-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+
+.icons .social-links a:hover{
+    color: lightgrey;
+    -webkit-transform: scale(1.1);
+transform: scale(1.1);
+
+}
+.icons .text .main h2{
+    text-align: center;
+}
+/*navbar*/
+.navbar{
+    background: #010155;
+    padding: 10px 20px;
+    transition: padding 2s ease;
+
+}
+.navbar-brand{
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    -webkit-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+.navbar-brand:hover{
+    color:#fff;
+}
+.navbar-toggler{
+    padding: 3px;
+}
+.line, .line2, .line3{
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    background: black;
+    transition: all 0.5s ease;
+    outline:none;
+}
+
+.navbar-toggler{
+    outline:none!important;
+
+}
+.nav-link{
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 2s ease;
+}
+.nav-link:hover{
+    background:#2c2c79;
+    color:white;
+}
+.nav-active:hover{
+    background: #01012e ;
+    color: #fff;
+}
+
+.nav-active{
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: rgba(1, 1, 46, 0.322);
+    transition: 2s ease;
+}
+/*.nav-active:hover{
+    background:lightblue ;
+}*/
+
+/*end navbar*/
+/*banner*/
+.row .banner{
+    height:500px;
+    background-image: url('image/p5.jpg');
+}
+
+# Team
+--------------------------------------------------------------*/
+#team{
+ 
+}
+.team .member {
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  background: rgb(2, 28, 54);
+}
+
+.team .member img {
+  max-width: 60%;
+  border-radius: 50%;
+  margin: 0 0 30px 0;
+}
+
+.team .member h4 {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+.team .member span {
+  color: cornsilk;
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+.team .member p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #aaaaaa;
+}
+
+.team .member .social {
+  margin-top: 15px;
+}
+
+.team .member .social a {
+  color: #919191;
+  transition: 0.3s;
+}
+
+.team .member .social a:hover {
+  color: #cc1616;
+}
+
+.team .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
